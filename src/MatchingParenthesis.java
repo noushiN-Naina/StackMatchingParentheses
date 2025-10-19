@@ -8,7 +8,7 @@ public class MatchingParenthesis {
      * are balanced and correctly nested using a Stack.
      *
      */
-    public static boolean isParenthesesMatched(String str) {
+    public staticboolean isParenthesesMatched(String str) {
         // We use a Stack to hold the opening delimiters encountered so far.
         Stack stack = new Stack(str.length());
 
